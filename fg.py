@@ -1,3 +1,7 @@
-x = int(input())
-for i in range(1,11):
-    
+import turtle
+a = list(map(int,input().split()))
+print(a)
+for i in a:
+    turtle.circle(i)
+
+turtle.exitonclick()
